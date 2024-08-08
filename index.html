@@ -3,118 +3,143 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
     <title>Jhojan Camilo Jimenez Amaya - Hoja de Vida</title>
   </head>
   <body>
-    <header>
-      <h1>Jhojan Camilo Jimenez Amaya</h1>
-      <img
-        src="/assets/FOTO CV.png"
-        alt="Foto de perfil de Jhojan Camilo Jimenez Amaya"
-      />
-    </header>
-    <main>
-      <section>
-        <h2>Contacto</h2>
-        <ul>
-          <li>Teléfono: +57 320 328 2014</li>
-          <li>
-            Email:
-            <a href="mailto:jhojanjimene@gmail.co">jhojanjimene@gmail.co</a>
-          </li>
-          <li>Ubicación: Chía, Vereda la Balsa</li>
-        </ul>
-      </section>
+    <div id="CV">
+      <div id="circle_tr"></div>
+      <div id="square"></div>
+      <header>
+        <div id="photo-container">
+          <img
+            src="/assets/FOTO CV.png"
+            alt="Foto de perfil de Jhojan Camilo Jimenez Amaya"
+            id="main-photo"
+          />
+        </div>
+        <h1 id="my-name">Jhojan Camilo Jimenez Amaya</h1>
+      </header>
+      <main>
+        <div id="left-content">
+          <section id="about-me">
+            <h3>Sobre mí</h3>
+            <p>
+              Estudiante universitario con un sólido historial académico y
+              habilidades interpersonales desarrolladas a través de experiencias
+              extracurriculares y laborales. Destaco por mi capacidad de
+              comunicación y habilidades en resolución de problemas. Actualmente
+              buscando una oportunidad para aplicar y expandir mis conocimientos
+              mientras continúo mi desarrollo académico y profesional.
+            </p>
+          </section>
+          <section id="contact">
+            <h2>Contacto</h2>
+            <ul>
+              <li>
+                <img src="/assets/telefono.png" alt="Phone number icon" />
+                +57 320 328 2014
+              </li>
+              <li>
+                <img src="/assets/correo.png" alt="Email icon" />
+                <a href="mailto:jhojanjimene@gmail.co"
+                  >jhojanjimene@gmail.com</a
+                >
+              </li>
+              <li>
+                <img src="/assets/casa.png" alt="Home icon" /> Chía, Vereda la
+                Balsa
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div id="right-content">
+          <section>
+            <h2>Experiencia Laboral</h2>
+            <article id="work-exp">
+              <h3><b>TurboCupones</b></h3>
+              <p><b>Colombia, Remoto</b></p>
+              <p>
+                <b>
+                  <time datetime="2024-01">Enero 2024</time> -
+                  <time datetime="2024-03">Marzo 2024</time>
+                </b>
+              </p>
+              <p>
+                Desarrollo de contenido digital con el propósito de informar y
+                atraer más clientes.
+              </p>
+            </article>
+          </section>
 
-      <section>
-        <h2>Sobre mí</h2>
-        <p>
-          Estudiante universitario con un sólido historial académico y
-          habilidades interpersonales desarrolladas a través de experiencias
-          extracurriculares y laborales. Destaco por mi capacidad de
-          comunicación y habilidades en resolución de problemas. Actualmente
-          buscando una oportunidad para aplicar y expandir mis conocimientos
-          mientras continúo mi desarrollo académico y profesional.
-        </p>
-      </section>
-
-      <section>
-        <h2>Experiencia Laboral</h2>
-        <article>
-          <h3>TurboCupones</h3>
-          <p>Colombia, Remoto</p>
-          <p>
-            <time datetime="2024-01">Enero 2024</time> -
-            <time datetime="2024-03">Marzo 2024</time>
-          </p>
-          <p>
-            Desarrollo de contenido digital con el propósito de informar y
-            atraer más clientes.
-          </p>
-        </article>
-      </section>
-
-      <section>
-        <h2>Formación Académica</h2>
-        <article>
-          <h3>Colegio Jaime Hernando Garzón Forero</h3>
-          <p>Bachiller</p>
-          <p>
-            <time datetime="2012">2012</time> -
-            <time datetime="2022">2022</time>
-          </p>
-        </article>
-        <article>
-          <h3>Servicio Nacional de Aprendizaje - SENA</h3>
-          <p>Administración de Recursos Humanos</p>
-          <p>
-            <time datetime="2022">2022</time> -
-            <time datetime="2023">2023</time>
-          </p>
-        </article>
-        <article>
-          <h3>Universidad de la Sabana</h3>
-          <p>Estudiante de Ingeniería Informática, Cuarto Semestre</p>
-          <p>
-            <time datetime="2023">2023</time> -
-            <time datetime="2024">2024</time>
-          </p>
-        </article>
-      </section>
-
-      <section>
-        <h2>Habilidades</h2>
-        <article>
-          <h3>Habilidades Blandas</h3>
-          <ul>
-            <li>Trabajo en equipo</li>
-            <li>Adaptabilidad</li>
-            <li>Organización del tiempo</li>
-            <li>Agilidad</li>
-            <li>Comunicación Efectiva</li>
-            <li>Habilidades interpersonales</li>
-            <li>Resolución de Problemas</li>
-          </ul>
-        </article>
-        <article>
-          <h3>Habilidades Técnicas</h3>
-          <ul>
-            <li>
-              Lenguajes de Programación: Java, Python, JavaScript/TypeScript
-            </li>
-            <li>Bases de datos: MySQL, Prisma ORM</li>
-            <li>Desarrollo Web: React, Next.js, Express</li>
-          </ul>
-        </article>
-        <article>
-          <h3>Habilidades en Desarrollo</h3>
-          <ul>
-            <li>Excel Intermedio</li>
-            <li>Power BI</li>
-            <li>Machine Learning y Análisis de Datos</li>
-          </ul>
-        </article>
-      </section>
-    </main>
+          <section>
+            <h2>Formación Académica</h2>
+            <article>
+              <h3>Colegio Jaime Hernando Garzón Forero</h3>
+              <p>Bachiller</p>
+              <p>
+                <time datetime="2012">2012</time> -
+                <time datetime="2022">2022</time>
+              </p>
+            </article>
+            <article>
+              <h3>Servicio Nacional de Aprendizaje - SENA</h3>
+              <p>Administración de Recursos Humanos</p>
+              <p>
+                <time datetime="2022">2022</time> -
+                <time datetime="2023">2023</time>
+              </p>
+            </article>
+            <article>
+              <h3>Universidad de la Sabana</h3>
+              <p>Estudiante de Ingeniería Informática, Cuarto Semestre</p>
+              <p>
+                <time datetime="2023">2023</time> -
+                <time datetime="2024">2024</time>
+              </p>
+            </article>
+          </section>
+          <section id="skills">
+            <h2>Habilidades</h2>
+            <div id="skills-container">
+              <article>
+                <h3>Habilidades Blandas</h3>
+                <ul>
+                  <li>Trabajo en equipo</li>
+                  <li>Adaptabilidad</li>
+                  <li>Organización del tiempo</li>
+                  <li>Agilidad</li>
+                  <li>Comunicación Efectiva</li>
+                  <li>Habilidades interpersonales</li>
+                  <li>Resolución de Problemas</li>
+                </ul>
+              </article>
+              <article>
+                <h3>Habilidades Técnicas</h3>
+                <ul>
+                  <li>
+                    <b> Lenguajes de Programación:</b> Java, Python,
+                    JavaScript/TypeScript
+                  </li>
+                  <li><b>Bases de datos:</b> MySQL, Prisma ORM</li>
+                  <li><b>Desarrollo Web:</b> React, Next.js, Express</li>
+                </ul>
+              </article>
+            </div>
+            <!-- 
+            <article>
+              <h3>Habilidades en Desarrollo</h3>
+              <ul>
+                <li>Excel Intermedio</li>
+                <li>Power BI</li>
+                <li>Machine Learning y Análisis de Datos</li>
+              </ul>
+            </article> -->
+          </section>
+        </div>
+      </main>
+      <div id="circle_bl"></div>
+      <div id="circle_br"></div>
+    </div>
   </body>
 </html>

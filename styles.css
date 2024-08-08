@@ -1,0 +1,176 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+a {
+  color: black;
+}
+body {
+  display: flex;
+  background-color: rgb(84, 85, 85);
+  font-family: "Montserrat", sans-serif;
+}
+#CV {
+  position: relative;
+  padding: 2rem;
+  width: 65%;
+  min-height: 100vh;
+  margin: 2rem auto;
+  background-color: white;
+  box-shadow: 0px 0px 2px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+#CV h2 {
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  width: 80%;
+  background-color: #27384c;
+  padding: 0.5rem 0px;
+}
+main {
+  min-height: fit-content;
+  display: flex;
+  flex-direction: row;
+}
+#left-content {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+#about-me {
+  width: 80%;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+#about-me p {
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+#contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+#contact ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: start;
+  margin-left: 2rem;
+}
+
+#right-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+#right-content section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+#skills-container {
+  max-width: 90%;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  text-align: center;
+}
+#skills-container article {
+  flex: 1;
+}
+#skills-container article ul {
+  margin-top: 1rem;
+  padding: 0px 5%;
+}
+#skills-container article li{
+  line-height: 200%;
+}
+#work-exp {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+#contact li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  overflow: hidden;
+}
+#square {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  top: 0px;
+  left: 0px;
+  background-color: #27384c;
+}
+#photo-container {
+  position: relative;
+  width: 50ch;
+  height: 35ch;
+  background-color: white;
+  outline: 1rem solid white;
+  border: #27384c solid 0.3rem;
+  border-radius: 50%;
+  contain: content;
+  margin: 3rem 0 0 3rem;
+}
+#main-photo {
+  width: 100%;
+  position: absolute;
+  top: -50px;
+}
+#my-name {
+  margin: auto;
+  color: #27384c;
+  font-size: 75px;
+  padding: 2rem;
+
+  text-wrap: wrap;
+}
+[id^="circle"] {
+  position: absolute;
+  border-radius: 50%;
+  background: repeating-linear-gradient(
+    135deg,
+    rgb(121, 109, 109),
+    rgb(113, 101, 101) 2px,
+    white 1px,
+    white 7px
+  );
+}
+#circle_tr {
+  top: -5%;
+  right: -12%;
+  width: 20%;
+  height: 20%;
+}
+#circle_bl {
+  left: -5%;
+  bottom: 2%;
+  width: 10%;
+  height: 10%;
+}
+#circle_br {
+  right: -15%;
+  bottom: -12%;
+  width: 30%;
+  height: 25%;
+}
