@@ -35,10 +35,11 @@ main {
   min-height: fit-content;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 #left-content {
   height: 100%;
-  width: 40%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -124,8 +125,8 @@ header {
 }
 #photo-container {
   position: relative;
-  width: 50ch;
-  height: 35ch;
+  width: 30vmin;
+  height: 30vmin;
   background-color: white;
   outline: 1rem solid white;
   border: #27384c solid 0.3rem;
@@ -134,9 +135,7 @@ header {
   margin: 3rem 0 0 3rem;
 }
 #main-photo {
-  width: 100%;
-  position: absolute;
-  top: -50px;
+  height: 100%;
 }
 #my-name {
   margin: auto;
@@ -172,6 +171,6 @@ header {
 #circle_br {
   right: -15%;
   bottom: -12%;
-  width: 30%;
-  height: 25%;
+  width: 25%;
+  height: 20%;
 }
